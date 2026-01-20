@@ -59,7 +59,7 @@ def main(csv_path: str):
     plt.ylabel("CF")
     plt.xticks(rotation=30, ha="right")
     plt.tight_layout()
-    out_png1 = "./plots/CF.png"
+    out_png1 = "./plots/CF_combined_py.png"
     plt.savefig(out_png1, dpi=150)
 
     # ---- Boxplot: Time ----
@@ -97,8 +97,8 @@ def main(csv_path: str):
     plt.ylabel("Time (milliseconds)")
     plt.xticks(rotation=30, ha="right")
     plt.tight_layout()
-    out_png2 = "./plots/Time.png"
+    out_png2 = "./plots/Time_combined_py.png"
     plt.savefig(out_png2, dpi=150)
 
 if __name__ == "__main__":
-    main("./csv/results.csv")
+    main("./csv/results_py.csv")

@@ -1,7 +1,0 @@
-come on!
-
-===== Function runtime profile =====
-Function                                       Calls      Total (ms)        Avg (us)        %
-makeTableEx                                        5           7.341        1468.118     50.94
-encoding                                           1           5.190        5189.788     36.02
-compressCountDP                                    5           1.879         375.811     13.04

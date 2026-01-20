@@ -424,7 +424,7 @@ SymbolTable *Btrfsst_buildSymbolTable(Counters& counters,
             // next symbol
             u16 next = st->dpChoice[pos];
 
-            if (sampleFrac < 128 && st->symbols[code].length() < Symbol::maxLength) {
+            if (sampleFrac < 128 /*&& st->symbols[code].length() < Symbol::maxLength*/) {
 
                counters.count2Inc(code, next);
                // also count extension by next byte if next consumes >1 (avoid double count for 1-byte)
@@ -521,13 +521,13 @@ SymbolTable *Btrfsst_buildSymbolTable(Counters& counters,
       };
 
       // seed heap
-      for (u16 a=0; a<C; a++) pushSingle(a);
+      for (u16 a=0; a<C; a++) if(c1[a]) pushSingle(a);
       if (sampleFrac < 128) {
          for (u16 a=0; a<C; a++) {
             if(prevSym[a].length() == Symbol::maxLength ||
                 prevSym[a].val.str[0] == st->terminator) continue;
             for (u16 b=0; b<C; b++)
-               if (prevSym[b].val.str[0] != st->terminator) pushPair(a,b);
+               if (prevSym[b].val.str[0] != st->terminator && c2[a][b]) pushPair(a,b);
          }
       }
       if ((opt.flags & FSST_OPT_TRIPLES) && sampleFrac < 128) {
@@ -546,6 +546,7 @@ SymbolTable *Btrfsst_buildSymbolTable(Counters& counters,
       // build next table
       st->clear();
       unordered_set<u64> seen;
+      unordered_map<u16, vector<u16>> pref_map, suf_map; 
       //bool first = true;
       while (st->nSymbols < 255 && !heap.empty()) {
          Cand cd = heap.top();
@@ -560,6 +561,7 @@ SymbolTable *Btrfsst_buildSymbolTable(Counters& counters,
          
          //check if this candidate is deleted (ie. count is outdated)
          if (curCnt != cd.cnt) {
+            assert(curCnt < cd.cnt);
             continue;
          }
 
@@ -594,14 +596,30 @@ SymbolTable *Btrfsst_buildSymbolTable(Counters& counters,
          
          // pruning: reduce counts for parts used
          if ((opt.flags & FSST_OPT_PRUNE) && cd.b != 0xFFFF) {
-            int used = curCnt;
+            int used = curCnt / 2;
 
             // decrement singles
             if(cd.c == 0xFFFF) {
                c1[cd.a] -= used;
+               /*auto it = suf_map.find(cd.a);
+               if(it != suf_map.end()) {
+                  for(auto c : (*it).second) {
+                     c1[cd.a] += count3.get(c, cd.a, cd.b);
+                  }
+               }*/
                if(cd.a != cd.b) pushSingle(cd.a);
+               
                c1[cd.b] -= used;
+               /*it = pref_map.find(cd.b);
+               if(it != pref_map.end()) {
+                  for(auto c : (*it).second) {
+                     c1[cd.b] += count3.get(cd.a, cd.b, c);
+                  }
+               }*/
                pushSingle(cd.b);
+
+               //pref_map[cd.a].push_back(cd.b);
+               //suf_map[cd.b].push_back(cd.a);
             }
             else {
                c1[cd.a] -= used;

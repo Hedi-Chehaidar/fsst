@@ -10,10 +10,6 @@
   #define pclose _pclose
 #endif
 
-struct Config {
-    std::string name;     // configuration name that goes into the CSV
-    std::string args;     // arguments passed to the binary for this config
-};
 
 static std::string csv_escape(const std::string& s) {
     bool need_quotes = false;
@@ -76,32 +72,25 @@ int main() {
 
     // One or more binaries to benchmark (paths to executables).
     // If you only have one binary, just keep a single entry.
-    const std::vector<std::string> binaries = {
-        "../build/fsst"
+    const std::vector<std::string> configs = {
+        "fsst",
+        "btrfsst"
         // "/path/to/another_binary"
     };
 
     // Input files (one file per run).
     std::vector<std::string> files;
     namespace fs = std::filesystem;
-    std::string path = "../data/refined";
+    std::string path = "../../data/refined";
     
     for (const auto& entry : fs::recursive_directory_iterator(path)) {
         if(entry.is_regular_file())
             files.push_back(entry.path().string());
     }
-    // Configurations: name + args passed to the binary.
-    const std::vector<Config> configs = {
-        {"fsst", ""},
-        {"dp-train + triples + prune", "--dp-train --prune --triples"},
-        {"dp-encode", "--dp-encode"},
-        {"dp-encode + dp-train", "--dp-train --dp-encode"},
-        {"dp-encode + dp-train + triples", "--dp-train --dp-encode --triples"},
-        {"BtrFSST", "--dp-train --dp-encode --prune --triples"}
-    };
+ 
 
     // Output CSV path
-    const std::string output_csv = "./csv/results.csv";
+    const std::string output_csv = "../csv/results_py.csv";
 
 
     std::ofstream out(output_csv);
@@ -113,36 +102,28 @@ int main() {
     // CSV header: includes binary too (helpful if you run multiple binaries)
     out << "configuration,Time,CF\n";
 
-    for (const auto& bin : binaries) { // only one binary for now
-        for (const auto& cfg : configs) {
-            for (const auto& file : files) {
-                std::ostringstream cmd;
-                cmd << bin;
-                if (!cfg.args.empty()) cmd << " " << cfg.args;
-                cmd << " " << file;
-                //output file 
-                cmd << " ../build/out";
-                int exit_code = 0;
-                double ms = 0.0;
-                std::string stdout_text = run_and_capture_stdout(cmd.str(), exit_code, ms);
-                if(ms >= 1000) {
-                    std::cout << file << std::endl;
-                }
-
-                auto [ok, cf_value] = parse_first_number(stdout_text);
-
-                // If CF isn't numeric, store raw stdout (escaped) in CF column.
-                std::string cf_field = ok ? std::to_string(cf_value)
-                                          : csv_escape(stdout_text);
-
-                out << csv_escape(cfg.name) << ","
-                    << ms << ","
-                    << cf_field << "\n";
-
-                // Progress / debugging
-                /*std::cerr << "[bin=" << bin << " cfg=" << cfg.name << "] file=" << file
-                          << " time=" << ms << "s exit=" << exit_code << "\n";*/
+    for (const auto& cfg : configs) {
+        for (const auto& file : files) {
+            std::ostringstream cmd;
+            cmd << "python3";
+            cmd << " ./" << cfg << ".py";
+            cmd << " " << file;
+            int exit_code = 0;
+            double ms = 0.0;
+            std::string stdout_text = run_and_capture_stdout(cmd.str(), exit_code, ms);
+            if(ms >= 1000) {
+                std::cout << file << std::endl;
             }
+
+            auto [ok, cf_value] = parse_first_number(stdout_text);
+
+            // If CF isn't numeric, store raw stdout (escaped) in CF column.
+            std::string cf_field = ok ? std::to_string(cf_value)
+                                        : csv_escape(stdout_text);
+
+            out << cfg << ","
+                << ms << ","
+                << cf_field << "\n";
         }
     }
 

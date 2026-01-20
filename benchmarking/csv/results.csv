@@ -1,116 +1,829 @@
 configuration,Time,CF
-fsst,30.2023,2.251230
-fsst,39.723,1.812520
-fsst,33.7639,3.352680
-fsst,33.4966,4.048720
-fsst,34.3215,1.677390
-fsst,41.9899,2.318100
-fsst,32.9317,1.844480
-fsst,30.4948,1.991540
-fsst,30.9758,2.173240
-fsst,37.9235,1.553070
-fsst,38.7492,1.806550
-fsst,38.8705,1.592840
-fsst,36.143,2.699180
-fsst,36.8146,2.031070
-fsst,31.4475,1.860020
-fsst,30.1241,2.103390
-fsst,39.1313,1.575170
-fsst,30.6694,1.945960
-fsst,34.8414,2.008300
-fsst,38.1754,2.730790
-fsst,30.4989,1.807100
-fsst,31.3472,2.869430
-fsst,47.204,2.330390
-BtrFSST_no-dp,41.7631,2.291490
-BtrFSST_no-dp,53.9632,1.733830
-BtrFSST_no-dp,45.5024,3.579030
-BtrFSST_no-dp,41.0313,4.250980
-BtrFSST_no-dp,44.9328,1.771630
-BtrFSST_no-dp,51.1168,2.286590
-BtrFSST_no-dp,43.6017,1.847640
-BtrFSST_no-dp,41.039,2.003820
-BtrFSST_no-dp,40.0279,2.190360
-BtrFSST_no-dp,48.9982,1.526400
-BtrFSST_no-dp,50.852,1.839900
-BtrFSST_no-dp,50.644,1.532280
-BtrFSST_no-dp,44.8077,2.777410
-BtrFSST_no-dp,48.1193,2.077170
-BtrFSST_no-dp,42.0065,1.853600
-BtrFSST_no-dp,41.484,2.101100
-BtrFSST_no-dp,52.4068,1.561310
-BtrFSST_no-dp,41.1832,1.968650
-BtrFSST_no-dp,44.5631,2.000910
-BtrFSST_no-dp,45.5288,2.893370
-BtrFSST_no-dp,42.6015,1.765810
-BtrFSST_no-dp,40.433,2.950510
-BtrFSST_no-dp,61.5873,2.445660
-BtrFSST_dp-encode,37.6026,2.357440
-BtrFSST_dp-encode,69.8979,1.788120
-BtrFSST_dp-encode,63.1265,3.683870
-BtrFSST_dp-encode,50.7729,4.374410
-BtrFSST_dp-encode,41.1854,1.727320
-BtrFSST_dp-encode,66.7183,2.360800
-BtrFSST_dp-encode,41.9814,1.847950
-BtrFSST_dp-encode,37.0967,2.028510
-BtrFSST_dp-encode,35.0114,2.224110
-BtrFSST_dp-encode,55.9718,1.571840
-BtrFSST_dp-encode,57.1212,1.836880
-BtrFSST_dp-encode,57.3967,1.598040
-BtrFSST_dp-encode,54.9159,2.749450
-BtrFSST_dp-encode,56.6113,2.029110
-BtrFSST_dp-encode,36.5794,1.853320
-BtrFSST_dp-encode,32.7096,2.135510
-BtrFSST_dp-encode,58.3738,1.594780
-BtrFSST_dp-encode,34.3884,1.975370
-BtrFSST_dp-encode,51.0851,2.057540
-BtrFSST_dp-encode,65.7426,3.041040
-BtrFSST_dp-encode,34.5654,1.810460
-BtrFSST_dp-encode,38.168,2.882620
-BtrFSST_dp-encode,91.237,2.551210
-BtrFSST_dp-only,36.4304,2.408400
-BtrFSST_dp-only,68.4089,1.800050
-BtrFSST_dp-only,63.4024,3.167880
-BtrFSST_dp-only,51.9895,4.761250
-BtrFSST_dp-only,43.1634,1.652780
-BtrFSST_dp-only,72.4929,2.389140
-BtrFSST_dp-only,41.5425,1.850180
-BtrFSST_dp-only,35.8534,2.075530
-BtrFSST_dp-only,34.2026,2.222250
-BtrFSST_dp-only,56.0093,1.573590
-BtrFSST_dp-only,59.9696,1.834020
-BtrFSST_dp-only,58.2299,1.578230
-BtrFSST_dp-only,52.6887,2.867650
-BtrFSST_dp-only,59.8223,2.051290
-BtrFSST_dp-only,37.8888,1.848340
-BtrFSST_dp-only,35.0095,2.151620
-BtrFSST_dp-only,62.3247,1.597580
-BtrFSST_dp-only,36.4781,1.966630
-BtrFSST_dp-only,56.8419,2.068560
-BtrFSST_dp-only,67.5157,2.720660
-BtrFSST_dp-only,37.4368,1.843900
-BtrFSST_dp-only,41.9381,3.247980
-BtrFSST_dp-only,95.8006,2.452300
-BtrFSST_full,40.5907,2.370610
-BtrFSST_full,89.1397,1.779140
-BtrFSST_full,65.4806,3.770940
-BtrFSST_full,51.9549,5.059290
-BtrFSST_full,46.3293,1.676790
-BtrFSST_full,78.0008,2.297440
-BtrFSST_full,45.4513,1.847640
-BtrFSST_full,39.8333,2.120120
-BtrFSST_full,39.4624,2.290900
-BtrFSST_full,62.4288,1.575780
-BtrFSST_full,67.3415,1.854160
-BtrFSST_full,66.352,1.585980
-BtrFSST_full,71.725,2.877190
-BtrFSST_full,65.1617,2.063880
-BtrFSST_full,44.1852,1.850450
-BtrFSST_full,39.8202,2.155110
-BtrFSST_full,68.3215,1.591570
-BtrFSST_full,40.5672,1.993640
-BtrFSST_full,58.8392,2.028370
-BtrFSST_full,74.0552,3.033040
-BtrFSST_full,44.0066,1.835680
-BtrFSST_full,47.2279,3.283920
-BtrFSST_full,105.886,2.508330
+fsst,27.2688,6.404920
+fsst,32.479,6.490750
+fsst,26.3881,6.388570
+fsst,44.8346,3.695210
+fsst,30.9361,1.517650
+fsst,72.2738,1.701630
+fsst,35.5135,2.722820
+fsst,29.5911,1.632920
+fsst,31.2848,1.439660
+fsst,28.6934,2.926470
+fsst,28.0101,3.122180
+fsst,55.6397,1.689840
+fsst,44.3325,2.687810
+fsst,33.364,2.811340
+fsst,31.826,4.557210
+fsst,30.6601,1.454440
+fsst,31.6799,1.439660
+fsst,44.3188,2.738030
+fsst,30.9132,2.341560
+fsst,33.3492,3.395090
+fsst,54.4394,2.062260
+fsst,28.2653,2.752130
+fsst,30.3642,1.454440
+fsst,43.4211,2.687810
+fsst,30.4146,3.528490
+fsst,52.3259,1.520080
+fsst,56.6386,1.689840
+fsst,30.0752,2.084350
+fsst,34.9648,2.303070
+fsst,30.2385,3.978680
+fsst,34.5992,2.752130
+fsst,33.993,4.557210
+fsst,40.2828,2.570030
+fsst,29.7759,2.084350
+fsst,32.7904,2.811340
+fsst,33.2504,2.774700
+fsst,26.7661,5.888420
+fsst,35.2028,1.817600
+fsst,29.7768,2.947940
+fsst,24.5305,1.556730
+fsst,24.2995,1.052150
+fsst,26.7291,6.514420
+fsst,38.1235,1.872390
+fsst,31.6477,2.458720
+fsst,25.153,3.633920
+fsst,25.094,1.541000
+fsst,27.3663,3.124160
+fsst,46.4808,1.649960
+fsst,25.0751,6.872930
+fsst,25.6104,2.463820
+fsst,27.2145,2.057930
+fsst,30.0876,2.081080
+fsst,26.1796,3.152040
+fsst,24.2357,7.167100
+fsst,26.1322,2.097530
+fsst,26.419,7.048720
+fsst,36.9508,1.867500
+fsst,30.2938,2.494050
+fsst,47.3745,1.693030
+fsst,79.8977,1.931560
+fsst,49.4904,1.797330
+fsst,29.2694,2.963530
+fsst,25.8312,2.676740
+fsst,27.1292,3.467730
+fsst,25.5991,5.807220
+fsst,25.3992,3.174880
+fsst,25.9084,6.092130
+fsst,30.2986,3.785000
+fsst,28.8439,2.364780
+fsst,26.8582,1.580650
+fsst,24.2765,1.529520
+fsst,30.1185,1.688120
+fsst,25.6806,3.508270
+fsst,28.3901,2.184970
+fsst,39.6809,3.013710
+fsst,28.1884,1.849870
+fsst,31.0323,1.615460
+fsst,24.3175,6.976160
+fsst,40.1493,2.899070
+fsst,59.9519,2.997200
+fsst,33.2914,2.201040
+fsst,29.475,2.536260
+fsst,37.8984,2.150340
+fsst,29.113,2.390960
+fsst,38.7938,2.805230
+fsst,35.0535,2.572620
+fsst,39.1041,3.021380
+fsst,36.8258,2.150340
+fsst,28.4782,2.364780
+fsst,30.3952,1.686380
+fsst,35.059,2.201010
+fsst,24.9535,1.529520
+fsst,25.9973,2.487440
+fsst,28.5496,2.919320
+fsst,35.0706,2.735470
+fsst,28.7884,3.005870
+fsst,73.8264,1.763560
+fsst,33.7799,1.788520
+fsst,47.2295,2.079400
+fsst,28.5453,3.006700
+fsst,29.0202,2.683850
+fsst,28.3109,2.606490
+fsst,27.9718,2.788280
+fsst,31.3079,1.494270
+fsst,27.5144,2.767200
+fsst,28.8313,2.081970
+fsst,130.909,1.623200
+fsst,47.3672,2.599160
+fsst,34.477,1.685370
+fsst,28.4489,2.158960
+fsst,134.412,1.757280
+fsst,31.581,3.588530
+fsst,29.3411,2.272070
+fsst,27.765,2.264030
+fsst,27.9749,3.497370
+fsst,26.841,2.251230
+fsst,37.0341,1.812520
+fsst,32.5455,3.352680
+fsst,28.9109,4.048720
+fsst,29.2045,1.677390
+fsst,35.8205,2.318100
+fsst,28.1965,1.844480
+fsst,27.4544,1.991540
+fsst,26.1499,2.173240
+fsst,33.4946,1.553070
+fsst,35.2089,1.806550
+fsst,35.5411,1.592840
+fsst,32.9372,2.699180
+fsst,33.4835,2.031070
+fsst,28.0073,1.860020
+fsst,26.7139,2.103390
+fsst,34.9413,1.575170
+fsst,27.0948,1.945960
+fsst,32.1425,2.008300
+fsst,34.6943,2.730790
+fsst,27.1656,1.807100
+fsst,28.9923,2.869430
+fsst,41.9549,2.330390
+dp-train + triples + prune,30.0678,7.004440
+dp-train + triples + prune,29.2117,6.967360
+dp-train + triples + prune,28.008,7.404220
+dp-train + triples + prune,60.69,3.600450
+dp-train + triples + prune,39.8097,1.511300
+dp-train + triples + prune,116.15,1.740970
+dp-train + triples + prune,43.9284,2.763320
+dp-train + triples + prune,39.7358,1.711370
+dp-train + triples + prune,40.4641,1.427010
+dp-train + triples + prune,36.5591,2.846400
+dp-train + triples + prune,36.2705,3.039650
+dp-train + triples + prune,80.6192,1.708230
+dp-train + triples + prune,63.4058,2.706230
+dp-train + triples + prune,40.8055,3.319790
+dp-train + triples + prune,38.4738,4.851940
+dp-train + triples + prune,41.5732,1.459920
+dp-train + triples + prune,40.349,1.427010
+dp-train + triples + prune,63.9829,2.733600
+dp-train + triples + prune,38.677,2.474500
+dp-train + triples + prune,44.9458,3.334970
+dp-train + triples + prune,37.8453,2.063710
+dp-train + triples + prune,37.6855,2.940930
+dp-train + triples + prune,43.8462,1.459920
+dp-train + triples + prune,63.1356,2.706230
+dp-train + triples + prune,38.8271,3.600200
+dp-train + triples + prune,69.2417,1.520320
+dp-train + triples + prune,79.0218,1.708230
+dp-train + triples + prune,39.7074,2.074530
+dp-train + triples + prune,45.666,2.325200
+dp-train + triples + prune,34.3004,5.158410
+dp-train + triples + prune,35.8906,2.940930
+dp-train + triples + prune,37.5202,4.851940
+dp-train + triples + prune,52.1805,2.548060
+dp-train + triples + prune,37.6319,2.074530
+dp-train + triples + prune,39.1793,3.319790
+dp-train + triples + prune,40.5775,2.849390
+dp-train + triples + prune,28.4383,6.121570
+dp-train + triples + prune,44.2505,1.764370
+dp-train + triples + prune,36.5193,2.848530
+dp-train + triples + prune,30.4918,1.696360
+dp-train + triples + prune,29.5227,0.837137
+dp-train + triples + prune,29.0142,7.058800
+dp-train + triples + prune,47.1135,1.851490
+dp-train + triples + prune,40.2882,2.473190
+dp-train + triples + prune,40.3025,3.479260
+dp-train + triples + prune,49.8354,1.479010
+dp-train + triples + prune,49.0387,3.133830
+dp-train + triples + prune,48.9937,1.623220
+dp-train + triples + prune,35.7246,6.776240
+dp-train + triples + prune,46.9867,2.497900
+dp-train + triples + prune,45.0509,2.139460
+dp-train + triples + prune,39.4902,2.028920
+dp-train + triples + prune,35.8487,3.193080
+dp-train + triples + prune,27.1626,7.230330
+dp-train + triples + prune,37.3383,2.178560
+dp-train + triples + prune,30.2238,6.981000
+dp-train + triples + prune,48.5976,1.834570
+dp-train + triples + prune,40.4618,2.492240
+dp-train + triples + prune,64.7051,1.739810
+dp-train + triples + prune,131.45,1.906120
+dp-train + triples + prune,80.9357,1.868020
+dp-train + triples + prune,45.637,2.560880
+dp-train + triples + prune,33.0747,2.164550
+dp-train + triples + prune,35.2661,3.462900
+dp-train + triples + prune,30.7788,7.120970
+dp-train + triples + prune,41.2318,2.778450
+dp-train + triples + prune,34.8988,7.118780
+dp-train + triples + prune,48.5994,3.509440
+dp-train + triples + prune,48.9082,2.380020
+dp-train + triples + prune,47.1992,1.571300
+dp-train + triples + prune,39.8619,1.050210
+dp-train + triples + prune,48.5646,1.714220
+dp-train + triples + prune,34.6513,3.825530
+dp-train + triples + prune,39.3921,2.189830
+dp-train + triples + prune,52.7161,3.209140
+dp-train + triples + prune,39.0576,1.937550
+dp-train + triples + prune,43.131,1.650770
+dp-train + triples + prune,27.2361,7.025550
+dp-train + triples + prune,54.4865,2.975740
+dp-train + triples + prune,90.4307,3.093870
+dp-train + triples + prune,51.7105,2.188220
+dp-train + triples + prune,46.5831,2.624970
+dp-train + triples + prune,58.5115,2.245670
+dp-train + triples + prune,43.2714,2.409230
+dp-train + triples + prune,54.8566,2.757980
+dp-train + triples + prune,45.5798,2.700130
+dp-train + triples + prune,52.3326,3.202700
+dp-train + triples + prune,48.2363,2.245670
+dp-train + triples + prune,39.4824,2.380020
+dp-train + triples + prune,42.8718,1.700950
+dp-train + triples + prune,43.515,2.295100
+dp-train + triples + prune,31.8426,1.050210
+dp-train + triples + prune,34.1963,2.789700
+dp-train + triples + prune,36.5157,3.180030
+dp-train + triples + prune,45.4216,2.812680
+dp-train + triples + prune,37.6476,3.133510
+dp-train + triples + prune,105.412,1.738230
+dp-train + triples + prune,47.066,1.827070
+dp-train + triples + prune,60.8444,2.124410
+dp-train + triples + prune,36.757,3.227510
+dp-train + triples + prune,38.3965,2.730870
+dp-train + triples + prune,38.0185,2.737550
+dp-train + triples + prune,36.6275,2.801400
+dp-train + triples + prune,44.5396,1.504680
+dp-train + triples + prune,37.6055,2.811440
+dp-train + triples + prune,41.3822,2.079790
+dp-train + triples + prune,200.27,1.633220
+dp-train + triples + prune,65.0553,2.597970
+dp-train + triples + prune,46.6526,1.702900
+dp-train + triples + prune,42.3284,2.172720
+dp-train + triples + prune,206.455,1.741990
+dp-train + triples + prune,47.2623,3.658510
+dp-train + triples + prune,49.2164,2.282100
+dp-train + triples + prune,48.4594,2.375140
+dp-train + triples + prune,40.3214,3.507840
+dp-train + triples + prune,47.209,2.247950
+dp-train + triples + prune,59.2284,1.723360
+dp-train + triples + prune,50.5194,3.572890
+dp-train + triples + prune,40.1018,4.247200
+dp-train + triples + prune,49.8436,1.757920
+dp-train + triples + prune,52.6845,2.304450
+dp-train + triples + prune,41.9697,1.847640
+dp-train + triples + prune,38.733,1.968260
+dp-train + triples + prune,37.9453,2.202940
+dp-train + triples + prune,49.2227,1.531220
+dp-train + triples + prune,46.3947,1.828620
+dp-train + triples + prune,57.0236,1.558990
+dp-train + triples + prune,47.9607,2.768460
+dp-train + triples + prune,54.1606,2.054100
+dp-train + triples + prune,48.0895,1.853820
+dp-train + triples + prune,44.6429,2.100300
+dp-train + triples + prune,57.6147,1.563960
+dp-train + triples + prune,46.4143,1.947370
+dp-train + triples + prune,48.7937,2.038570
+dp-train + triples + prune,50.5003,2.908020
+dp-train + triples + prune,45.5327,1.772270
+dp-train + triples + prune,37.2664,2.950920
+dp-train + triples + prune,55.767,2.460700
+dp-encode,38.7067,7.278640
+dp-encode,36.9536,7.006550
+dp-encode,39.2618,7.191790
+dp-encode,136.269,3.864170
+dp-encode,47.4515,1.537880
+dp-encode,191.836,1.741300
+dp-encode,67.4608,2.768030
+dp-encode,41.377,1.735280
+dp-encode,43.9817,1.447490
+dp-encode,41.3889,3.100660
+dp-encode,43.3112,3.324190
+dp-encode,120.483,1.729730
+dp-encode,126.274,2.753690
+dp-encode,55.0824,3.331430
+dp-encode,55.4147,4.789330
+dp-encode,42.9143,1.459640
+dp-encode,43.8086,1.447490
+dp-encode,121.141,2.726090
+dp-encode,45.6563,2.484100
+dp-encode,61.7645,3.627530
+dp-encode,43.8838,2.092440
+dp-encode,43.9114,2.807670
+dp-encode,46.3712,1.459640
+dp-encode,131.3,2.753690
+dp-encode,48.7057,3.783670
+dp-encode,117.568,1.537230
+dp-encode,132.786,1.729730
+dp-encode,45.2865,2.124980
+dp-encode,67.92,2.320420
+dp-encode,50.2699,5.391850
+dp-encode,52.1612,2.807670
+dp-encode,61.687,4.789330
+dp-encode,85.0271,2.591440
+dp-encode,38.2928,2.124980
+dp-encode,53.8082,3.331430
+dp-encode,61.7691,2.734180
+dp-encode,37.518,5.946090
+dp-encode,59.7114,1.841040
+dp-encode,49.3755,3.328930
+dp-encode,34.1589,1.771520
+dp-encode,33.2862,0.850369
+dp-encode,42.1211,7.210280
+dp-encode,72.2338,1.911110
+dp-encode,43.5827,2.499670
+dp-encode,30.4813,3.461350
+dp-encode,29.9847,1.537160
+dp-encode,38.2769,3.059750
+dp-encode,33.8784,1.668360
+dp-encode,27.5541,7.092020
+dp-encode,30.9999,2.486890
+dp-encode,37.3445,2.157190
+dp-encode,49.0988,2.122480
+dp-encode,34.892,3.174330
+dp-encode,27.1887,7.442240
+dp-encode,32.7675,2.177150
+dp-encode,36.451,7.257080
+dp-encode,68.605,1.902570
+dp-encode,44.7683,2.523780
+dp-encode,99.9535,1.799820
+dp-encode,223.819,1.981560
+dp-encode,98.9825,1.882560
+dp-encode,43.0798,2.917030
+dp-encode,31.6182,2.720840
+dp-encode,35.6778,3.512080
+dp-encode,35.4042,7.083630
+dp-encode,32.7887,3.236700
+dp-encode,36.5035,7.451120
+dp-encode,49.8654,3.611560
+dp-encode,43.6698,2.381990
+dp-encode,34.5913,1.611920
+dp-encode,28.6298,1.216540
+dp-encode,43.37,1.741990
+dp-encode,34.5523,3.815520
+dp-encode,39.5036,2.191830
+dp-encode,100.903,3.034180
+dp-encode,37.4767,2.019360
+dp-encode,46.7216,1.663380
+dp-encode,26.2355,7.038540
+dp-encode,90.3126,2.878310
+dp-encode,188.782,3.153160
+dp-encode,46.6958,2.203590
+dp-encode,41.3089,2.620190
+dp-encode,71.4032,2.252550
+dp-encode,40.6469,2.411450
+dp-encode,91.7909,2.878850
+dp-encode,70.4135,2.688100
+dp-encode,106.731,3.041710
+dp-encode,74.5859,2.252550
+dp-encode,45.8019,2.381990
+dp-encode,51.3019,1.698310
+dp-encode,69.0453,2.306720
+dp-encode,34.8807,1.216540
+dp-encode,37.7625,2.702960
+dp-encode,51.3442,3.015580
+dp-encode,85.1971,2.779980
+dp-encode,43.7433,3.228090
+dp-encode,212.76,1.739800
+dp-encode,43.361,1.802150
+dp-encode,104.04,2.165790
+dp-encode,41.7673,3.201210
+dp-encode,42.2038,2.722450
+dp-encode,46.6966,2.685570
+dp-encode,47.332,2.910090
+dp-encode,51.3842,1.498870
+dp-encode,47.2797,2.877200
+dp-encode,49.1041,2.098850
+dp-encode,410.082,1.647740
+dp-encode,107.188,2.634260
+dp-encode,55.9545,1.770010
+dp-encode,37.3241,2.183710
+dp-encode,370.615,1.760330
+dp-encode,55.2941,3.661630
+dp-encode,39.4796,2.280870
+dp-encode,34.2961,2.266710
+dp-encode,38.124,3.528670
+dp-encode,32.9453,2.357440
+dp-encode,64.5425,1.788120
+dp-encode,58.1781,3.683870
+dp-encode,47.6945,4.374410
+dp-encode,37.0766,1.727320
+dp-encode,62.4501,2.360800
+dp-encode,38.5346,1.847950
+dp-encode,33.1193,2.028510
+dp-encode,31.4371,2.224110
+dp-encode,51.6881,1.571840
+dp-encode,56.3892,1.836880
+dp-encode,54.2886,1.598040
+dp-encode,51.6536,2.749450
+dp-encode,54.951,2.029110
+dp-encode,35.3226,1.853320
+dp-encode,32.9139,2.135510
+dp-encode,55.7727,1.594780
+dp-encode,32.7278,1.975370
+dp-encode,47.7479,2.057540
+dp-encode,64.2284,3.041040
+dp-encode,62.12,1.810460
+dp-encode,38.3859,2.882620
+dp-encode,88.1058,2.551210
+dp-encode + dp-train,42.8031,7.659080
+dp-encode + dp-train,40.1824,7.255580
+dp-encode + dp-train,39.2787,7.291480
+dp-encode + dp-train,123.697,3.930210
+dp-encode + dp-train,42.7008,1.541260
+dp-encode + dp-train,182.975,1.767320
+dp-encode + dp-train,64.8095,2.996690
+dp-encode + dp-train,43.1844,1.713770
+dp-encode + dp-train,44.9914,1.453050
+dp-encode + dp-train,40.6921,3.229770
+dp-encode + dp-train,44.0035,3.749150
+dp-encode + dp-train,123.646,1.758690
+dp-encode + dp-train,130.462,2.763950
+dp-encode + dp-train,59.3702,3.370050
+dp-encode + dp-train,52.4484,5.130630
+dp-encode + dp-train,42.8959,1.454040
+dp-encode + dp-train,44.8872,1.453050
+dp-encode + dp-train,122.14,2.761660
+dp-encode + dp-train,48.4169,2.593690
+dp-encode + dp-train,56.1812,3.321090
+dp-encode + dp-train,38.5325,2.105610
+dp-encode + dp-train,42.3031,3.106750
+dp-encode + dp-train,42.9468,1.454040
+dp-encode + dp-train,122.877,2.763950
+dp-encode + dp-train,48.8297,4.270360
+dp-encode + dp-train,110.869,1.547010
+dp-encode + dp-train,126.766,1.758690
+dp-encode + dp-train,40.3927,2.131130
+dp-encode + dp-train,68.2235,2.246070
+dp-encode + dp-train,47.7064,5.615110
+dp-encode + dp-train,42.2556,3.106750
+dp-encode + dp-train,53.1715,5.130630
+dp-encode + dp-train,87.6458,2.609160
+dp-encode + dp-train,38.0677,2.131130
+dp-encode + dp-train,58.4886,3.370050
+dp-encode + dp-train,64.0174,2.841420
+dp-encode + dp-train,39.9856,5.991920
+dp-encode + dp-train,57.2904,1.856930
+dp-encode + dp-train,43.8491,3.545490
+dp-encode + dp-train,29.7576,1.583140
+dp-encode + dp-train,31.0991,0.836269
+dp-encode + dp-train,45.3706,7.775900
+dp-encode + dp-train,69.3302,1.936700
+dp-encode + dp-train,44.7727,2.446040
+dp-encode + dp-train,32.2276,3.688320
+dp-encode + dp-train,30.1792,1.552470
+dp-encode + dp-train,38.19,3.209270
+dp-encode + dp-train,34.5138,1.654920
+dp-encode + dp-train,31.7948,7.199520
+dp-encode + dp-train,32.1326,2.438840
+dp-encode + dp-train,38.8313,2.219240
+dp-encode + dp-train,51.0609,2.064670
+dp-encode + dp-train,37.6154,3.212410
+dp-encode + dp-train,27.399,7.430880
+dp-encode + dp-train,34.1037,2.167130
+dp-encode + dp-train,44.221,7.764370
+dp-encode + dp-train,69.2694,1.930620
+dp-encode + dp-train,47.0648,2.441520
+dp-encode + dp-train,101.238,1.856380
+dp-encode + dp-train,233.57,2.030580
+dp-encode + dp-train,103.035,1.930360
+dp-encode + dp-train,43.3068,3.214420
+dp-encode + dp-train,34.1129,2.349390
+dp-encode + dp-train,36.0246,3.712410
+dp-encode + dp-train,36.788,7.283400
+dp-encode + dp-train,34.0547,3.507660
+dp-encode + dp-train,38.1457,7.281930
+dp-encode + dp-train,51.0014,3.817170
+dp-encode + dp-train,39.4576,2.519720
+dp-encode + dp-train,33.7148,1.604310
+dp-encode + dp-train,29.6256,1.179350
+dp-encode + dp-train,44.2989,1.744320
+dp-encode + dp-train,35.3264,3.581640
+dp-encode + dp-train,38.4221,2.233620
+dp-encode + dp-train,98.8172,3.160230
+dp-encode + dp-train,37.756,1.957060
+dp-encode + dp-train,46.5287,1.641240
+dp-encode + dp-train,28.3233,6.631610
+dp-encode + dp-train,97.0968,2.973830
+dp-encode + dp-train,190.921,3.060050
+dp-encode + dp-train,46.498,2.218240
+dp-encode + dp-train,44.1302,2.610350
+dp-encode + dp-train,67.3082,2.235340
+dp-encode + dp-train,41.1573,2.554930
+dp-encode + dp-train,89.6036,2.898500
+dp-encode + dp-train,65.9704,2.859600
+dp-encode + dp-train,98.7286,3.175670
+dp-encode + dp-train,66.8889,2.235340
+dp-encode + dp-train,39.1029,2.519720
+dp-encode + dp-train,43.9214,1.714660
+dp-encode + dp-train,62.2628,2.238180
+dp-encode + dp-train,29.3123,1.179350
+dp-encode + dp-train,31.376,2.750510
+dp-encode + dp-train,41.2433,2.986320
+dp-encode + dp-train,74.5794,3.002610
+dp-encode + dp-train,41.2592,3.233330
+dp-encode + dp-train,211.507,1.774360
+dp-encode + dp-train,51.3596,1.771310
+dp-encode + dp-train,100.696,2.223050
+dp-encode + dp-train,43.7152,2.759090
+dp-encode + dp-train,40.6698,2.866590
+dp-encode + dp-train,38.3701,2.775220
+dp-encode + dp-train,41.8557,2.428930
+dp-encode + dp-train,44.3335,1.507930
+dp-encode + dp-train,42.3283,2.422660
+dp-encode + dp-train,39.2112,2.229270
+dp-encode + dp-train,401.14,1.657450
+dp-encode + dp-train,107.643,2.658610
+dp-encode + dp-train,56.5707,1.741990
+dp-encode + dp-train,37.9679,2.181790
+dp-encode + dp-train,379.808,1.766960
+dp-encode + dp-train,55.6254,4.413080
+dp-encode + dp-train,39.7872,2.352500
+dp-encode + dp-train,36.1499,2.277600
+dp-encode + dp-train,43.6759,5.197650
+dp-encode + dp-train,34.7118,2.408400
+dp-encode + dp-train,64.7967,1.800050
+dp-encode + dp-train,57.8185,3.167880
+dp-encode + dp-train,48.7344,4.761250
+dp-encode + dp-train,38.9417,1.652780
+dp-encode + dp-train,65.342,2.389140
+dp-encode + dp-train,38.9848,1.850180
+dp-encode + dp-train,33.5191,2.075530
+dp-encode + dp-train,34.0256,2.222250
+dp-encode + dp-train,52.3488,1.573590
+dp-encode + dp-train,56.635,1.834020
+dp-encode + dp-train,55.0329,1.578230
+dp-encode + dp-train,50.3753,2.867650
+dp-encode + dp-train,56.7264,2.051290
+dp-encode + dp-train,36.6578,1.848340
+dp-encode + dp-train,35.1803,2.151620
+dp-encode + dp-train,57.248,1.597580
+dp-encode + dp-train,32.9776,1.966630
+dp-encode + dp-train,48.3525,2.068560
+dp-encode + dp-train,63.2869,2.720660
+dp-encode + dp-train,34.6568,1.843900
+dp-encode + dp-train,38.6988,3.247980
+dp-encode + dp-train,91.2243,2.452300
+dp-encode + dp-train + triples,43.7255,7.709660
+dp-encode + dp-train + triples,42.1019,7.878230
+dp-encode + dp-train + triples,40.2254,7.291480
+dp-encode + dp-train + triples,124.929,3.954840
+dp-encode + dp-train + triples,46.7826,1.514960
+dp-encode + dp-train + triples,198.973,1.761160
+dp-encode + dp-train + triples,62.1502,2.891250
+dp-encode + dp-train + triples,47.2299,1.696150
+dp-encode + dp-train + triples,48.625,1.444200
+dp-encode + dp-train + triples,43.2537,3.249920
+dp-encode + dp-train + triples,46.1847,3.566120
+dp-encode + dp-train + triples,138.771,1.773310
+dp-encode + dp-train + triples,112.896,2.824200
+dp-encode + dp-train + triples,59.6423,3.355370
+dp-encode + dp-train + triples,54.3173,5.452220
+dp-encode + dp-train + triples,49.1241,1.388380
+dp-encode + dp-train + triples,48.4394,1.444200
+dp-encode + dp-train + triples,115.726,2.850580
+dp-encode + dp-train + triples,48.4419,2.515160
+dp-encode + dp-train + triples,58.8728,3.650140
+dp-encode + dp-train + triples,42.8955,2.078140
+dp-encode + dp-train + triples,43.9317,3.117310
+dp-encode + dp-train + triples,48.0045,1.388380
+dp-encode + dp-train + triples,109.055,2.824200
+dp-encode + dp-train + triples,50.1473,4.285010
+dp-encode + dp-train + triples,117.104,1.553170
+dp-encode + dp-train + triples,137.665,1.773310
+dp-encode + dp-train + triples,42.6301,2.128480
+dp-encode + dp-train + triples,69.7348,2.337720
+dp-encode + dp-train + triples,48.0873,5.427910
+dp-encode + dp-train + triples,44.3405,3.117310
+dp-encode + dp-train + triples,54.1086,5.452220
+dp-encode + dp-train + triples,93.8826,2.541970
+dp-encode + dp-train + triples,41.817,2.128480
+dp-encode + dp-train + triples,57.7107,3.355370
+dp-encode + dp-train + triples,63.8644,2.747120
+dp-encode + dp-train + triples,41.4855,5.983090
+dp-encode + dp-train + triples,62.7509,1.855430
+dp-encode + dp-train + triples,45.8152,3.113490
+dp-encode + dp-train + triples,31.785,1.574240
+dp-encode + dp-train + triples,30.6787,0.849474
+dp-encode + dp-train + triples,44.2505,7.774390
+dp-encode + dp-train + triples,73.5728,1.935090
+dp-encode + dp-train + triples,48.2077,2.404550
+dp-encode + dp-train + triples,33.4958,3.762750
+dp-encode + dp-train + triples,36.9235,1.540130
+dp-encode + dp-train + triples,40.7883,3.156780
+dp-encode + dp-train + triples,40.4564,1.650380
+dp-encode + dp-train + triples,32.8106,7.248580
+dp-encode + dp-train + triples,36.9,2.447210
+dp-encode + dp-train + triples,39.651,2.156790
+dp-encode + dp-train + triples,51.2597,2.029930
+dp-encode + dp-train + triples,38.6846,3.251920
+dp-encode + dp-train + triples,29.8916,7.430880
+dp-encode + dp-train + triples,37.9498,2.139180
+dp-encode + dp-train + triples,46.2043,7.827000
+dp-encode + dp-train + triples,72.548,1.939670
+dp-encode + dp-train + triples,50.9317,2.451980
+dp-encode + dp-train + triples,105.486,1.793930
+dp-encode + dp-train + triples,244.835,2.025940
+dp-encode + dp-train + triples,110.839,1.904120
+dp-encode + dp-train + triples,47.1641,2.919700
+dp-encode + dp-train + triples,33.9903,2.525320
+dp-encode + dp-train + triples,39.3128,3.776710
+dp-encode + dp-train + triples,38.3436,7.283400
+dp-encode + dp-train + triples,35.1269,3.449660
+dp-encode + dp-train + triples,38.0888,7.281930
+dp-encode + dp-train + triples,54.5094,4.039960
+dp-encode + dp-train + triples,44.5143,2.524580
+dp-encode + dp-train + triples,40.3165,1.623220
+dp-encode + dp-train + triples,30.6723,1.187410
+dp-encode + dp-train + triples,50.1114,1.721350
+dp-encode + dp-train + triples,35.8577,3.773320
+dp-encode + dp-train + triples,43.5659,2.234890
+dp-encode + dp-train + triples,97.7642,3.231310
+dp-encode + dp-train + triples,42.4244,2.064500
+dp-encode + dp-train + triples,52.3115,1.675810
+dp-encode + dp-train + triples,29.898,6.795470
+dp-encode + dp-train + triples,92.4799,3.095390
+dp-encode + dp-train + triples,182.583,3.076250
+dp-encode + dp-train + triples,52.6775,2.215500
+dp-encode + dp-train + triples,47.4242,2.624630
+dp-encode + dp-train + triples,70.7307,2.283930
+dp-encode + dp-train + triples,45.1443,2.552200
+dp-encode + dp-train + triples,85.6017,3.054130
+dp-encode + dp-train + triples,68.9282,2.883370
+dp-encode + dp-train + triples,97.315,3.239890
+dp-encode + dp-train + triples,70.3413,2.283930
+dp-encode + dp-train + triples,44.3839,2.524580
+dp-encode + dp-train + triples,50.2425,1.715840
+dp-encode + dp-train + triples,65.6036,2.155980
+dp-encode + dp-train + triples,30.7299,1.187410
+dp-encode + dp-train + triples,35.1045,2.622350
+dp-encode + dp-train + triples,42.3142,2.971070
+dp-encode + dp-train + triples,74.4052,2.952420
+dp-encode + dp-train + triples,43.7045,3.186310
+dp-encode + dp-train + triples,230.712,1.784670
+dp-encode + dp-train + triples,58.012,1.760640
+dp-encode + dp-train + triples,105.477,2.146840
+dp-encode + dp-train + triples,45.4256,2.517820
+dp-encode + dp-train + triples,42.226,2.930840
+dp-encode + dp-train + triples,44.0709,2.746230
+dp-encode + dp-train + triples,42.1529,2.369470
+dp-encode + dp-train + triples,51.3266,1.507050
+dp-encode + dp-train + triples,42.3661,2.349740
+dp-encode + dp-train + triples,45.0005,2.290320
+dp-encode + dp-train + triples,438.893,1.652090
+dp-encode + dp-train + triples,114.51,2.638530
+dp-encode + dp-train + triples,61.7675,1.734030
+dp-encode + dp-train + triples,42.9799,2.188190
+dp-encode + dp-train + triples,421.163,1.771960
+dp-encode + dp-train + triples,52.9755,4.477640
+dp-encode + dp-train + triples,45.1798,2.353220
+dp-encode + dp-train + triples,38.9879,2.293540
+dp-encode + dp-train + triples,44.4682,5.282770
+dp-encode + dp-train + triples,37.329,2.384490
+dp-encode + dp-train + triples,71.5305,1.801740
+dp-encode + dp-train + triples,60.0782,3.718990
+dp-encode + dp-train + triples,48.5848,5.063870
+dp-encode + dp-train + triples,44.2708,1.671980
+dp-encode + dp-train + triples,74.2283,2.333680
+dp-encode + dp-train + triples,43.6942,1.850140
+dp-encode + dp-train + triples,37.5274,2.123340
+dp-encode + dp-train + triples,37.6589,2.277530
+dp-encode + dp-train + triples,58.2354,1.572670
+dp-encode + dp-train + triples,63.0612,1.854340
+dp-encode + dp-train + triples,62.5442,1.582220
+dp-encode + dp-train + triples,54.9546,2.866280
+dp-encode + dp-train + triples,61.6592,2.067410
+dp-encode + dp-train + triples,41.3144,1.852590
+dp-encode + dp-train + triples,38.9417,2.146180
+dp-encode + dp-train + triples,64.5105,1.600740
+dp-encode + dp-train + triples,38.0091,1.998160
+dp-encode + dp-train + triples,54.0806,2.083270
+dp-encode + dp-train + triples,68.0551,2.892380
+dp-encode + dp-train + triples,40.1751,1.836190
+dp-encode + dp-train + triples,44.3136,3.283920
+dp-encode + dp-train + triples,96.2777,2.469290
+BtrFSST,44.189,7.647640
+BtrFSST,43.3913,7.677910
+BtrFSST,40.6238,7.291480
+BtrFSST,135.15,3.999460
+BtrFSST,46.9767,1.561090
+BtrFSST,203.632,1.763760
+BtrFSST,71.0145,2.949020
+BtrFSST,47.478,1.684080
+BtrFSST,49.2552,1.457370
+BtrFSST,51.9391,3.293530
+BtrFSST,52.564,3.738710
+BtrFSST,150.99,1.757810
+BtrFSST,127.871,2.715560
+BtrFSST,62.691,3.379190
+BtrFSST,59.0532,5.458410
+BtrFSST,55.9374,1.423110
+BtrFSST,56.2965,1.457370
+BtrFSST,136.05,2.766890
+BtrFSST,55.8623,2.520980
+BtrFSST,69.0267,3.490440
+BtrFSST,50.558,2.070990
+BtrFSST,51.6308,3.177840
+BtrFSST,58.2429,1.423110
+BtrFSST,136.581,2.715560
+BtrFSST,57.1353,4.356130
+BtrFSST,132.644,1.543950
+BtrFSST,149.148,1.757810
+BtrFSST,43.7062,2.124820
+BtrFSST,70.3149,2.306090
+BtrFSST,48.3573,5.619520
+BtrFSST,45.4292,3.177840
+BtrFSST,57.1268,5.458410
+BtrFSST,92.1386,2.596750
+BtrFSST,43.4374,2.124820
+BtrFSST,61.7983,3.379190
+BtrFSST,64.2516,2.821020
+BtrFSST,46.1878,6.286650
+BtrFSST,73.3246,1.869080
+BtrFSST,53.8155,3.094500
+BtrFSST,39.806,1.597600
+BtrFSST,37.1279,0.842380
+BtrFSST,49.3645,7.847500
+BtrFSST,74.456,1.924710
+BtrFSST,49.2912,2.410440
+BtrFSST,37.4134,3.620150
+BtrFSST,43.9719,1.551400
+BtrFSST,49.3312,3.181440
+BtrFSST,43.6613,1.672860
+BtrFSST,32.4188,7.257340
+BtrFSST,37.688,2.435030
+BtrFSST,40.403,2.207800
+BtrFSST,54.0209,2.017640
+BtrFSST,38.5847,3.250340
+BtrFSST,27.9636,7.430880
+BtrFSST,37.0308,2.190800
+BtrFSST,46.399,7.828160
+BtrFSST,74.0485,1.919810
+BtrFSST,50.2173,2.440040
+BtrFSST,107.734,1.802410
+BtrFSST,244.348,2.085110
+BtrFSST,115.767,1.922680
+BtrFSST,55.7309,2.716070
+BtrFSST,42.045,2.189210
+BtrFSST,48.6884,3.723690
+BtrFSST,41.4167,7.283400
+BtrFSST,36.4944,3.284770
+BtrFSST,38.3492,7.281930
+BtrFSST,53.7255,3.983110
+BtrFSST,44.4329,2.517300
+BtrFSST,39.884,1.617930
+BtrFSST,31.3448,1.159650
+BtrFSST,52.5981,1.751910
+BtrFSST,43.7656,3.757290
+BtrFSST,56.3612,2.234500
+BtrFSST,121.613,3.223030
+BtrFSST,50.1048,2.119750
+BtrFSST,63.18,1.687190
+BtrFSST,36.1205,6.631610
+BtrFSST,106.363,3.182620
+BtrFSST,198.458,3.200000
+BtrFSST,61.4942,2.211980
+BtrFSST,55.4678,2.636620
+BtrFSST,83.3796,2.307030
+BtrFSST,52.5243,2.558880
+BtrFSST,91.4157,3.026010
+BtrFSST,70.9472,2.862900
+BtrFSST,111.806,3.212570
+BtrFSST,72.5026,2.307030
+BtrFSST,45.2744,2.517300
+BtrFSST,50.3268,1.733560
+BtrFSST,71.0092,2.146250
+BtrFSST,38.5246,1.159650
+BtrFSST,40.958,2.711800
+BtrFSST,49.8865,2.908650
+BtrFSST,80.8741,2.937270
+BtrFSST,44.688,3.245600
+BtrFSST,236.835,1.772580
+BtrFSST,50.5636,1.766700
+BtrFSST,110.68,2.230630
+BtrFSST,44.7166,2.255120
+BtrFSST,42.6567,2.925000
+BtrFSST,44.5429,2.809050
+BtrFSST,40.4398,3.023060
+BtrFSST,51.9424,1.509710
+BtrFSST,40.6667,2.946240
+BtrFSST,44.6523,2.336450
+BtrFSST,449.107,1.655620
+BtrFSST,115.577,2.662130
+BtrFSST,61.7794,1.724780
+BtrFSST,43.3836,2.187560
+BtrFSST,418.537,1.774250
+BtrFSST,48.5662,4.343380
+BtrFSST,46.4054,2.357230
+BtrFSST,40.3378,2.357150
+BtrFSST,43.7294,5.154810
+BtrFSST,37.4775,2.477960
+BtrFSST,71.7668,1.785540
+BtrFSST,61.2273,3.757020
+BtrFSST,49.8344,5.046410
+BtrFSST,44.3585,1.675170
+BtrFSST,73.9737,2.325260
+BtrFSST,44.0275,1.847640
+BtrFSST,38.6653,2.089750
+BtrFSST,37.5484,2.296990
+BtrFSST,58.5611,1.576180
+BtrFSST,62.951,1.853380
+BtrFSST,62.0339,1.582560
+BtrFSST,81.5676,2.876230
+BtrFSST,61.2739,2.081550
+BtrFSST,41.825,1.847900
+BtrFSST,38.9222,2.153010
+BtrFSST,65.3828,1.592320
+BtrFSST,55.0809,2.000460
+BtrFSST,54.4561,2.056890
+BtrFSST,69.94,2.997970
+BtrFSST,41.54,1.835600
+BtrFSST,44.2501,3.283850
+BtrFSST,101.659,2.517450

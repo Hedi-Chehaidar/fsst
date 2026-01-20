@@ -1,5 +1,13 @@
+g++ runner.cpp -o runner
 cd ../build
 make -j
 cd ../benchmarking
 ./runner
+python3 plot_results.py
+
+
+
+cd python
+./runner_py
+cd ..
 python3 plot_results.py
